@@ -1,6 +1,7 @@
 let contrastToggle = false;
 const scaleFactor = 1 / 20;
 
+// for moving shapes in the background
 function moveBackground(event) {
     const shapes = document.querySelectorAll(".shape");
     const x = event.clientX * scaleFactor;
@@ -14,6 +15,7 @@ function moveBackground(event) {
 }
 
 
+// dark mode toggle
 function toggleContrast() {
     contrastToggle = !contrastToggle;
     if (contrastToggle) {
@@ -23,6 +25,7 @@ function toggleContrast() {
         document.body.classList.remove('dark-theme')
     }
 }
+
 
 function contact(event) {
     event.preventDefault();
