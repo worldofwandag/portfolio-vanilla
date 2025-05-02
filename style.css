@@ -285,8 +285,9 @@ nav {
 }
 
 #personal-logo {
-  width: 150px;
+  width: 200px;
   filter: invert(1);
+  margin-left: 48px;
 }
 
 .nav__link--list {
